@@ -51,7 +51,7 @@ while time.time() < t_end:
     if(int(ans)==cor_ans):
         print('Correct! Next Question\n')
     else:
-        print('Bzz Wrong! Correct answer: ', cor_ans)
+        print('Bzz Wrong! Correct answer: ', cor_ans, '\n')
 print('\nTime finished!')
 cor_count=0
 ind=0
